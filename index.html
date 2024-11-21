@@ -1,7 +1,735 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120732177-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag() { dataLayer.push(arguments); }
+	  gtag('js', new Date());
+  
+	  gtag('config', 'UA-120732177-1');
+	</script>
+	
+	<title>Tao Wang</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="images/t.png" />
+
+	<!-- Font -->
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	<script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+	<!-- Stylesheets -->
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
 <body>
-<h1>Hello Seattle!</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<section class="intro-section">
+		<header id="home">
+			<div class="menu-wrapper">
+				<nav id="nav-menu">
+					<ul class="nav-menu">
+						<li class="display-large"><a href="#about">About</a></li>
+						<li class="display-large"><a href="#contact">Contact</a></li>
+						<li class="display-large"><a href="#skills">Skills</a></li>
+						<li class="display-large"><a href="#education">Education</a></li>
+						<li class="display-large"><a href="#employment">Employment</a></li>
+						<li class="display-large"><a href="#research">Research</a></li>
+						<li class="display-small">
+							<button class="menu-button display-small" onclick="toggleHiddenMenu()">&#9776;</button>
+						</li>
+					</ul>
+				</nav><!-- #nav-menu-container -->
+				<nav id="nav-menu-stack" onclick="closeHiddenMenu()" style="display:none">
+					<div><a href="#about">About</a></div>
+					<div><a href="#contact">Contact</a></div>
+					<div><a href="#skills">Skills</a></div>
+					<div><a href="#research">Research</a></div>
+					<div><a href="#employment">Employment</a></div>
+					<div><a href="#education">Education</a></div>
+				</nav>
+			</div>
+		</header><!-- #header -->
+
+		<div class="container">
+			<div class="row quote-container">
+				<div class="col-sm-12">
+					<h3 class="margin-b-30"><b>We are all story tellers. With each word searched or photo liked, we whisper a story that
+							only the most attentive can hear.</b></h3>
+					<h3 class="margin-b-30"><b>I am a listener aided by qualitative and quantitative research methods.</b></h3>
+				</div><!-- col-sm-12 -->
+			</div>
+
+
+			<div class="intro">
+				<div class="row">
+
+					<div class="center-text profile-container">
+						<div class="profile-img"><img src="images/tao.png" alt=""></div>
+						<div class="profile-title">
+							<h2><b>Tao Wang</b></h2>
+							<h4>User Researcher</h4>
+						</div>
+						<div class="profile-second">
+							<h5>Human Computer Interaction, Usability, Accessibility</h5>
+						</div>
+						<!--div><a class="downlad-btn" href="document/TaoWang_resume.pdf" target="_blank">Download Resume</a></div-->
+					</div><!-- col-sm-8 -->
+
+				</div><!-- row -->
+
+			</div><!-- intro -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
+
+
+	<section id="about" class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center-text">
+					<div class="heading">
+						<h3><b>My Story</b></h3>
+					</div>
+				</div><!-- col-sm-3 -->
+				<div class="col-sm-12">
+					<p class="margin-b-30">
+						I am deeply interested in the dynamic between people and technologies: how our behaviors inform the design of technologies
+						and how technologies change our everyday behaviors. The Human Computer Interaction (HCI) class that I took during my
+						undergraduate study initiated this passion. I learned more about the field when conducting the research required by
+						the BSc(Hons) degree, where I picked an HCI topic. However, the real breakthrough came when I volunteered with the
+						local Special Olympic community. I witnessed the challenges that people with special needs and their caretakers face
+						and the joy that they express, often upon some minor things. I started to think more profoundly about the relationship
+						between technologies and their users. This growing curiosity led me to pursue a Ph.D. through the Department of Informatics,
+						University of California Irvine in 2011.
+					</p>
+					<p class="margin-b-30">Since then, I have contributed to more than ten HCI projects, including five projects that I
+						led from start to finish. My reading and hands-on experiences allowed me to gain an in-depth understanding of various
+						research methods including their strengths and shortcomings. Along the way, I have also developed my own identity as
+						a researcher. Information technologies have social impact, especially for people who are disadvantaged by their abilities
+						or social context. I wish to use my skills to develop information technologies that can improve the quality of life
+						for these individuals, and maybe the seemingly small improvements can ripple and unlock the full potential of their
+						lives.
+					</p>
+					<p class="margin-b-30">In the past a few years, my main focus was on my dissertation research, which comprised three
+						projects/phases. In this research, I looked at an often neglected problem that blind users encounter: the communication,
+						awkward at times, with sighted users in regard to interacting web pages. I used both qualitative methods and quantitative
+						methods to investigate the root of the issues and assess a potential design solution. Through this research, I have
+						gained interesting insights and produced various design suggestions at each phase. I successfully defended my dissertation
+						on May 16th, 2018.
+					</p>
+					<p class="margin-b-30">Currently, I am in the job market. So please get in touch if you have good suggestions. I do not know what life will 
+						take me next. But I do know that I want to dedicate my career to research and work on good topics that can impact people's lives. 
+						I can’t imagine anything else more satisfying than that!</p>
+				</div><!-- col-sm-6 -->
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+
+	<section id="contact" class="contact-section">
+		<div class="container">
+			<div class="row action-wrapper">
+				<!--div class="col-md-12 col-lg-4">
+					<div class="action-button">
+						<a href="tel:9492320660"><ion-icon name="call"></ion-icon>949-232 0660</a></div>
+				</div-->
+				<div class="col-md-12 col-lg-6">
+					<div class="action-button">
+						<a href="mailto:taow.info@gmail.com"><ion-icon name="mail"></ion-icon>taow.info@gmail.com</a></div>
+				</div>
+				<div class="col-md-12 col-lg-6">
+					<div class="action-button">
+						<a href="http://www.linkedin.com/in/taow-info"><ion-icon name="logo-linkedin"></ion-icon>in/taow-info</a></div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="skills" class="skills-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center-text">
+					<div class="heading">
+						<h3><b>Skills</b></h3>
+					</div>
+				</div><!-- col-sm-12 -->
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 margin-tb-30">
+					<h4><b>Research</b></h4>
+
+					<p class="margin-tb-30">My experience provided me an in-depth understanding of a wide range of qualitative and quantitative
+						research methods, including the strengths and shortcomings of each method.
+					</p>
+
+					<p>
+						<h6 class="tag">Interview</h6>
+						<h6 class="tag">Survey/Questionnaire</h6>
+						<h6 class="tag">Lab experiment</h6>
+						<h6 class="tag">Log Analysis</h6>
+						<h6 class="tag">Content Analysis</h6>
+						<h6 class="tag">Ethnography</h6>
+						<h6 class="tag">Contextual Inquiry</h6>
+						<h6 class="tag">Cognitive Walkthrough</h6>
+						<h6 class="tag">Observation</h6>
+						<h6 class="tag">Diary Study</h6>
+					</p>
+
+				</div><!-- col-md-6 -->
+
+				<div class="col-sm-12 col-md-6 margin-tb-30">
+					<h4><b>Usability</b></h4>
+
+					<p class="margin-tb-30">
+						I am also familiar with various methods used for usability testing and UI/UX designs. I have applied them in my own research 
+						and guided senior students in project or design classes to use them. An incomplete list includes the following:
+					</p>
+					<p>
+						<h6 class="tag">In-Lab/Remote Usability Testing</h6>
+						<h6 class="tag">Persona</h6>
+						<h6 class="tag">Heuristic Evalution</h6>
+						<h6 class="tag">Cognitive Walkthrough</h6>
+						<h6 class="tag">Low/High Fidelity Prototyping</h6>
+						<h6 class="tag">Competitor Analysis</h6>
+						<h6 class="tag">Journey Map</h6>
+					</p>
+
+				</div><!-- col-md-6 -->
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 margin-tb-30">
+					<h4><b>Data Analysis</b></h4>
+
+					<p class="margin-tb-30">
+						One important aspect of doing research is applying rigorous data analysis methods to distinguish signals from noises. I have
+						experiences processing both qualitative data and quantitative data. Below are a
+						few methods that I have used:
+					</p>
+
+					<p>
+						<h6 class="tag">Open Coding</h6>
+						<h6 class="tag">Axial Coding</h6>
+						<h6 class="tag">Selective Coding</h6>
+						<h6 class="tag">Grounded Theory</h6>
+						<h6 class="tag">Affinity Diagram</h6>
+						<h6 class="tag">Descriptive Statistics</h6>
+						<h6 class="tag">Inferential Statistics</h6>
+						<h6 class="tag">Categorical Data Analysis</h6>
+						<h6 class="tag">Regression</h6>
+						<h6 class="tag">Data Visualization</h6>
+					</p>
+
+				</div><!-- col-md-6 -->
+
+				<div class="col-sm-12 col-md-6 margin-tb-30">
+					<h4><b>Programming</b></h4>
+
+					<p class="margin-tb-30">
+						I have a background as a software engineer before becoming a researcher. In graduate school, 
+						I have developed web-based and Android-based prototypes for 
+						my own research and projects that I contributed to. Some highlights of my technical
+						skills include:
+					</p>
+
+					<p>
+						<h6 class="tag">HTML/CSS</h6>
+						<h6 class="tag">JavaScript</h6>
+						<h6 class="tag">JQuery</h6>
+						<h6 class="tag">Java</h6>
+						<h6 class="tag">C#</h6>
+						<h6 class="tag">SQL</h6>
+						<h6 class="tag">R</h6>
+						<h6 class="tag">ASP.NET</h6>
+						<h6 class="tag">MVC.NET</h6>
+						<h6 class="tag">Android</h6>
+						<h6 class="tag">Agile</h6>
+						<h6 class="tag">Lean UX</h6>
+					</p>
+
+				</div><!-- col-md-6 -->
+			</div>
+		</div><!-- container -->
+	</section><!-- skills-section -->
+
+	<section id="education" class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-4 center-sm">
+					<div class="heading">
+						<h3><b>Education</b></h3>
+					</div>
+				</div><!-- col-sm-3 -->
+
+				<div class="col-sm-12 col-md-8">
+
+					<div class="timeline-wrapper">
+						<div class="timeline-item margin-b-50">
+							<h4><b>Ph.D. in Information and Computer Science</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://www.informatics.uci.edu/" target="_blank">Department of Informatics</a></b></div>
+								<div><b>University of California, Irvine</b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">September 2011 - June 2018</h6>
+							<p class="margin-tb-30">
+								<div>Advisor: <a href="http://redmiles.ics.uci.edu/" target="_blank">Professor David Redmiles</a></div>
+								<div>Dissertation Title: Exploring the Potential of Using Spatial Audio to Improve Web Accessibility for Screen Reader
+									Users
+								</div>
+							</p>
+						</div><!-- education -->
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>BSc(Hons) in Computer Science</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://www.cs.auckland.ac.nz/" target="_blank">Department of Computer Science</a></b></div>
+								<div><b>The University of Auckland, New Zealand</b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">2008 - 2009</h6>
+							<p class="margin-tb-30">
+								<div>Dissertation Supervisor: <a href="https://www.cs.auckland.ac.nz/~beryl/" target="_blank">Associate Professor
+										Beryl Plimmer</a></div>
+								<div>Dissertation Title: SmartList: Computing with Handwritten Input</div>
+							</p>
+						</div><!-- education -->
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>BSc in Computer Science</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://www.cs.auckland.ac.nz/" target="_blank">Department of Computer Science</a></b></div>
+								<div><b>The University of Auckland, New Zealand</b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">2002 - 2005</h6>
+							<p class="margin-tb-30"></p>
+						</div><!-- education -->
+					</div><!-- education-wrapper -->
+
+				</div><!-- col-sm-9 -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+	</section><!-- education-section -->
+
+	<section id="employment" class="employment-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-4 center-sm">
+					<div class="heading">
+						<h3><b>Employment</b></h3>
+					</div>
+				</div><!-- col-sm-3 -->
+
+				<div class="col-sm-12 col-md-8">
+					<div class="timeline-wrapper">
+						<div class="timeline-item margin-b-50">
+							<h4><b>User Experience Researcher</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://amazon.com/" target="_blank">Amazon</a></b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">January 2022 - Present</h6>
+							<p class="margin-tb-30">
+								Performed generative and evaluative user studies to inform project teams with insights about user behaviors. 
+							</p>
+							<p class="margin-tb-30">
+								Presented workshops and seminars on various user research methods.
+							</p>
+							<p class="margin-tb-30">
+								Conducted independent research in the area of Explainable AI, Human-Agent Interaction.
+							</p>
+							<p class="margin-tb-30">
+								Mentored student and intern projects on topics such as Voice User Interface, iOS application, and visualization.
+							</p>
+						</div>
+						<div class="timeline-item margin-b-50">
+							<h4><b>Researcher</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://icn.sap.com/" target="_blank">Innovation Center Network</a></b></div>
+								<div><b>SAP</b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">November 2018 - January 2022</h6>
+							<p class="margin-tb-30">
+								Performed generative and evaluative user studies to inform project teams with insights about user behaviors. 
+							</p>
+							<p class="margin-tb-30">
+								Presented workshops and seminars on various user research methods.
+							</p>
+							<p class="margin-tb-30">
+								Conducted independent research in the area of Explainable AI, Human-Agent Interaction.
+							</p>
+							<p class="margin-tb-30">
+								Mentored student and intern projects on topics such as Voice User Interface, iOS application, and visualization.
+							</p>
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Graduate Student Researcher</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://www.informatics.uci.edu/" target="_blank">Department of Informatics</a></b></div>
+								<div><b>University of California, Irvine</b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">September 2011 - June 2018</h6>
+							<p class="margin-tb-30">
+								Led 5 projects from start to finish; responsible for all activities in a research project cycle.
+							</p>
+							<ul class="list">
+								<li>Identified research topics and prioritized research questions</li>
+								<li>Surveyed existing literature published in conferences and journals</li>
+								<li>Applied for funding</li>
+								<li>Planned research protocols and acquired approvals from Institutional Review Board (IRB)</li>
+								<li>Developed research prototypes</li>
+								<li>Created user recruitment materials</li>
+								<li>Recruited users from campus and local disability communities</li>
+								<li>Authored research papers and technical reports to communicate research findings</li>
+								<li>Presented posters at international conferences (ASSETS, UIST) and local outlets</li>
+							</ul>
+							<p class="margin-tb-30">
+								Collaborated with teams of 3-5 researchers from across multidisciplinary departments in 4 projects: planned research agendas,
+								developed research prototypes, such as:
+							</p>
+							<ul class="list">
+								<li>Web- and Android- based systems to help diabetic patients manage personal health data</li>
+								<li>Web-based colorectal cancer risk assessment tool targeting population aged 50+</li>
+							</ul>
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Teaching Assistant</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://www.ics.uci.edu/" target="_blank">School of Information and Computer Science</a></b></div>
+								<div><b>University of California, Irvine</b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">September 2011 - June 2018</h6>
+							<p class="margin-tb-30">
+								Served as Teaching Assistant for 18 classes
+							</p>
+							<ul class="list">
+								<li>Assisted professors in creating overall class structures</li>
+								<li>Managed teaching activities in fast-paced schedules</li>
+								<li>Designed compelling teaching materials (slides, activities) to promote effective learning</li>
+								<li>Created assignments and quizzes to evaluate learning objectives</li>
+								<li>Delivered lectures and discussions for classes ranging from 40 to 100+ students</li>
+								<li>Managed student project teams (4-7 students per team, 10+ teams a time): setting goals, tracking progress, identifying
+									collaboration issues, resolving conflicts</li>
+								<li>Facilitated other teaching/supporting staff from across campus for class activities</li>
+							</ul>
+
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Assistive Technology Trainer</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://www.brailleinstitute.org/anaheim" target="_blank">Braille Institute Anaheim Center</a></b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">May 2013 - July 2017</h6>
+							<p class="margin-tb-30">
+							</p>
+							<ul class="list">
+								<li>Provided technology trainings to students with visual impairments in group and one-on-one</li>
+								<li>Gained expertise in assistive technologies</li>
+								<li>Developed new training material</li>
+							</ul>
+
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Research Intern</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="http://www.fxpal.com/" target="_blank">FXPAL Research Lab</a></b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">June 2014 - September 2014</h6>
+							<p class="margin-tb-30">
+							</p>
+							<ul class="list">
+								<li>Ran in-person interviews (10+ users) to develop original research topic</li>
+								<li>Developed proof-of-concept prototype and web-based user study data collection instruments</li>
+								<li>Evaluated the prototype via online surveys distributed on Amazon Mechanical Turk (300 responses)</li>
+								<li>Performed inferential statistical analysis to measure user interaction and produce design insights</li>
+								<li>Wrote two research papers (one first author, one second author) to present findings</li>
+							</ul>
+
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Research Assistant</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://idash.ucsd.edu/" target="_blank">UCSD iDASH</a></b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">June 2012 - September 2012</h6>
+							<p class="margin-tb-30">
+							</p>
+							<ul class="list">
+								<li>Conducted user interviews to gather requirements</li>
+								<li>Developed prototypes for research activities</li>
+								<li>Presented research progress in public events</li>
+							</ul>
+
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Software Consultant</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="http://datacom.co.nz/" target="_blank">Datacom, Auckland, New Zealand</a></b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">March 2008 - July 2011</h6>
+							<p class="margin-tb-30">
+							</p>
+							<ul class="list">
+								<li>Developed web applications</li>
+								<li>Managed database, e.g., scripting, performance tuning, maintenance</li>
+								<li>Assisted account managers with estimates</li>
+								<li>Gathered requirements from clients onsite and offsite</li>
+							</ul>
+
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Software Consultant</b></h4>
+							<h5 class="font-green">
+								<div><b>Hyro, Auckland, New Zealand</b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">March 2007 - February 2008</h6>
+							<p class="margin-tb-30">
+							</p>
+							<ul class="list">
+								<li>Developed web applications</li>
+								<li>Maintained database servers</li>
+								<li>Assisted project proposals and planning</li>
+							</ul>
+
+						</div>
+
+						<div class="timeline-item margin-b-50">
+							<h4><b>Software Developer</b></h4>
+							<h5 class="font-green">
+								<div><b><a href="https://www.intergen.co.nz/" target="_blank">Intergen, Auckland, New Zealand</a></b></div>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">September 2005 - March 2007</h6>
+							<p class="margin-tb-30">
+							</p>
+							<ul class="list">
+								<li>Developed software</li>
+								<li>Maintained database</li>
+							</ul>
+
+						</div>
+					</div>
+				</div><!-- col-sm-9 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- experience-section -->
+
+
+	<section id="research" class="research-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center-text">
+					<div class="heading">
+						<h3><b>Research</b></h3>
+						<h6 class="font-lite-black"><b>Selected Projects from My Recent Work</b></h6>
+					</div>
+				</div><!-- col-sm-12 -->
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<img src="images/communication.png">
+				</div>
+				<div class="col-sm-12 col-md-8">
+
+					<div class="experience margin-b-50">
+						<h4><b>Understanding the Communication Barriers tetween Sighted and Blind Web Users</b></h4>
+						<h5 class="margin-tb-30 font-green">
+							<div><b>Problem</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							No man is an island. Communication with others is essential when performing many tasks. However, prior research has reported
+							that blind web users experienced difficulties when discussing web pages with sighted web users. One plausible explanation
+							is that blind users use screen readers to access web pages, which convey content via synthesized speech. This is dramatically
+							different from how sighted users perceive web pages. This leads to communication barriers when describing web pages.
+							In this research, my goal was to clarify what the specific issues were. Such an understanding is necessary as it informs
+							what a design solution should address.
+						</p>
+						<h5 class="font-green margin-tb-30">
+							<div><b>Method</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							I conducted a content analysis study. The idea was to collect written instructions for simple web-based tasks and analyze
+							what wording and patterns were problematic for screen reader users. I distributed online surveys on Amazon Mechanical
+							Turk and collected 50+ unique responses.
+						</p>
+						<h5 class="font-green margin-tb-30">
+							<div><b>Findings</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							I found two consistent, problematic patterns among other minor patterns from the data. First, spatial terms, such as “top
+							left,” “center,” were prevalent when sighted users described web elements. Since screen readers do not convey layout,
+							blind users would not be able to make sense of these terms. Second, sighted users tend to use inconsistent terms to
+							describe web elements. For example, they might describe the same top menu using “links,” “tabs,” or “text.” Since
+							screen readers always use the technical web element names, blind users could get confused when receiving instructions
+							featuring such terms.
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<img src="images/hearing.png">
+				</div>
+				<div class="col-sm-12  col-md-8">
+
+					<div class="experience margin-b-50">
+						<h4><b>Spatial Audio with Web Audio API</b></h4>
+
+
+						<h5 class="font-green margin-tb-30">
+							<div><b>Problem</b></div>
+						</h5>
+
+						<p class="margin-tb-30">
+							Web Audio API is a W3C work-in-progress specification that is supported by all major browsers. Using Web Audio API, a web
+							developer can easily edit one or more audio sources during runtime and create sophisticated audio effect. I was particularly
+							interested in its spatialization features as spatial audio has the potential to convey layout to web users with visual
+							impairments. However, there is no known evaluation of the effectiveness of Web Audio API’s spatialization features.
+							In addition, moving audio can provide more design options and a more animated experience. But compared to other design
+							spaces, we know little about how to design good moving audio, e.g., do different movements lead to different recognition
+							rates? Do spatial properties, such as distance, speed, play a role in recognition accuracy?
+						</p>
+
+
+						<h5 class="font-green margin-tb-30">
+							<div><b>Method</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							To answer both questions, I designed and implemented two lab experiments: one focused on stationary spatial audio and the
+							other focused on moving audio. I recruited 18 participants. Each session took about two hours and the participant
+							completed recognition tasks of audio stimulus with various spatial properties. At the end, I collected more than 4000
+							data points. Using ANOVA and non-parametric methods, I compared and identified regions that contribute to better or
+							worse recognition rates. I also built multi-level general models to evaluate the role that different spatial properties
+							play.
+						</p>
+
+						<h5 class="font-green margin-tb-30">
+							<div><b>Findings</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							Based on the analysis, I produced a few main spatial audio design guidelines, as well as a summary of observed patterns.
+							The main findings include the recognition rates of stationary audio spatialized in the horizontal space for different
+							resolutions, the recognition rates of various movement types and the impact of a moving audio’s length or direction,
+							the ranges of less sensitive area in the audio space, and a recognition bias that users exhibited.
+
+						</p>
+						<p class="margin-tb-30">
+							You can find a poster summarizing the findings <a href="document/webaudioapiposter.pdf" target="_blank">here</a>.
+						</p>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<img src="images/blind.jpg">
+				</div>
+				<div class="col-sm-12  col-md-8">
+
+					<div class="experience margin-b-50">
+						<h4><b>Using Spatial Audio Feedback to Convey Web Page Layouts to Blind Screen Reader Users</b></h4>
+
+
+						<h5 class="font-green margin-tb-30">
+							<div><b>Problem</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							My early research has found that sighted people tend to use spatial terms when describing web pages, but spatial terms are
+							problematic for blind screen reader users to comprehend. One potential solution is to convey layout information via
+							spatial audio feedback. Currently, screen readers have not utilized spatial audio much and user attitudes about such
+							designs are unknown. Therefore, it is necessary to conduct formative research before any major development.
+						</p>
+
+
+						<h5 class="font-green margin-tb-30">
+							<div><b>Method</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							I developed a proof-of-concept screen reader prototype that supports basic screen reader features and additional spatial
+							audio features. Then I conducted user studies with 20 blind or legally blind participants. Each one-on-one session
+							took about two hours. The user study includes usability testing, surveys, and interviews. The focus was on whether
+							or not users could interpret relative spatial terms or perceive the overall web page layout using the prototype, and
+							their direct feedback on the design concept.
+						</p>
+
+						<h5 class="font-green margin-tb-30">
+							<div><b>Findings</b></div>
+						</h5>
+						<p class="margin-tb-30">
+							Quantitative data collected from the usability testing and surveys shows that spatial audio features enabled participants
+							to accomplish tasks that are hard or impossible to complete with regular screen readers. However, I also found that
+							a user’s familiarity with screen readers had a strong impact to their experience with spatial audio features. For
+							users who are new to screen readers, they had a hard time processing the additional spatial audio feedback. For experienced
+							screen reader users, they responded positively to the spatial audio features in general, but a few were reluctant
+							to incorporate new techniques into their existing interaction routines. From the interview, I also learned usability
+							issues with my current design and various scenarios where spatial audio feedback could make positive impacts. These
+							findings allowed me to compile a list of recommendations on how future developments should be focused.
+
+
+						</p>
+						<p class="margin-tb-30">You can find a case study of this project
+							<a href="document/casestudy.pdf" target="_blank">here</a>.</p>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div><!-- row -->
+
+
+		</div><!-- container -->
+	</section><!-- portfolio-section -->
+
+	<footer class="copyright">
+		<div>&copy;
+			<script>document.write(new Date().getFullYear());</script> Tao Wang
+		</div>
+		<div>Last modified on March 19th, 2021</div>
+	</footer>
+
+	<div class="btn-round">
+		<a href="#home"><ion-icon name="arrow-up"></ion-icon></a>
+	</div>
+
+	<!-- SCIPTS -->
+
+
+	<script>
+
+		function toggleHiddenMenu() {
+			var menu = document.getElementById("nav-menu-stack");
+			if (menu.style.display == "none") {
+				menu.style.display = "block";
+
+			}
+			else {
+				menu.style.display = "none";
+			}
+
+			event.preventDefault();
+		}
+
+		function closeHiddenMenu() {
+			var menu = document.getElementById("nav-menu-stack");
+			menu.style.display = "none";
+		}
+	</script>
+
 </body>
+
 </html>
